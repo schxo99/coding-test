@@ -18,3 +18,14 @@ def solution(s):
         if s == [1]:
             break
     return [time, zero]
+
+##다른사람의 풀이
+# 간단하고 가독성이 좋은 풀이인 것 같다.
+# def solution(s):
+#     a, b = 0, 0
+#     while s != '1':
+#         a += 1
+#         num = s.count('1')
+#         b += len(s) - num
+#         s = bin(num)[2:]
+#     return [a, b]
