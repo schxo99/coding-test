@@ -1,4 +1,5 @@
-#처음에는 deque를 사용하지 않고 작성했을 때 효율성 1번에서 실패가 떴다. deque를 사용하니 통과가 되었는데, popleft를 사용안할 시 인덱스에 접근해야하기 때문에 더 안좋다고 한다.
+#처음에는 deque를 사용하지 않고 작성했을 때 효율성 1번에서 실패가 떴다. deque를 사용하니 통과가 되었는데, popleft를 사용안할 시 
+#인덱스에 접근해야하기 때문에 효율성이 더 떨어진다 한다.
 from collections import deque
 def solution(people, limit):
     people.sort()
