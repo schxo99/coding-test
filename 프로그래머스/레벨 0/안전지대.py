@@ -1,3 +1,4 @@
+## 레벨 0 다풀었다!
 def solution(board):
     result = 0
     for i in range(len(board)):
